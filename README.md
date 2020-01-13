@@ -13,14 +13,14 @@ A fully customizable high quality react native Slider component backed by custom
 
 1. Add
 
-   * npm: `npm install --save rn-range-slider`
-   * yarn: `yarn add rn-range-slider`
+   * npm: `npm install --save @anchorchat/rn-range-slider`
+   * yarn: `yarn add @anchorchat/rn-range-slider`
 
 2. Linking
 
-##### For older React native versions ( < 0.60 ) you need to link the library: 
+##### For older React native versions ( < 0.60 ) you need to link the library:
 
-   - Run `react-native link  rn-range-slider`
+   - Run `react-native link @anchorchat/rn-range-slider`
    - If linking fails, follow the
      [manual linking steps](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#manual-linking)
 
@@ -33,7 +33,7 @@ A fully customizable high quality react native Slider component backed by custom
 ```RangeSlider``` should have fixed width and height.
 
 ```
-import RangeSlider from 'rn-range-slider';
+import RangeSlider from '@anchorchat/rn-range-slider';
 
 ...
 
